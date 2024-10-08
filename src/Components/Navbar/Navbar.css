@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #4a72aa;
+    background:  hsl(66, 63%, 55%);
     padding: 10px 3%;
 }
 * {
@@ -31,6 +31,11 @@
 }
 .Search-box{
     flex: 0 1 auto;
+    display: flex;
+    align-items: center;
+    background: #f1f3e1;
+    padding: 10px 20px;
+    border-radius: 50px;
 }
 .options {
     flex: 0 1 auto;
@@ -46,24 +51,18 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.Search-box{
-    display: flex;
-    align-items: center;
-    background: #242424;
-    padding: 10px 20px;
-    border-radius: 50px;
-}
 .Search-box input{
     padding: 6px;
     background:transparent;
     border: 0;
     outline: 0;
-    color: #bcbc7c;
+    color: #252501;
     font-size: 18px;
     max-width: 200px;
-
 }
 .Search-box input::placeholder{
-    color: #fff;
+    color: #131e01;
 }
-
+.dark .Navbar{
+    background:  #4a72aa;
+}

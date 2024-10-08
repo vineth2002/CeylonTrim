@@ -4,8 +4,13 @@
   box-sizing:border-box;
   font-family:sans-serif;
 }
-.NavBar{
+.container{
   Width:100vw;
   height: 100vh;
+  background: #fff;
+  transition: 0.5s;
+}
+.container.dark{
   background: #343434;
+  
 }
