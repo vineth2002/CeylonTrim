@@ -1,13 +1,15 @@
-{
+*{
   margin:0;
   padding:0;
   box-sizing:border-box;
   font-family:sans-serif;
+  
+   
 }
 .container{
   Width:100vw;
-  height: 100vh;
-  background: #fff;
+  height: 100vh; 
+   background: #fff; 
   transition: 0.5s;
 }
 .container.dark{

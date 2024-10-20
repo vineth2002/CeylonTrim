@@ -3,7 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background:  hsl(66, 63%, 55%);
+    background:#663366; 
+    /* -webkit-backdrop-filter: blur(10px); /* Safari support */
+    /* backdrop-filter:blur(60px) ; */ 
     padding: 10px 3%;
 }
 * {
