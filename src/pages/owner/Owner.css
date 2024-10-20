@@ -1,12 +1,12 @@
 .register-container {
     display: flex;
-    height: 100vh; 
-    
+
+
 }
 
 .register-image {
     flex: 1;
-    background-image: url('../../assets/owner.jpg'); 
+    background-image: url('../../assets/owner.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -16,14 +16,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:  40px 20px;
+    padding: 40px 20px;
     background: linear-gradient(to right, #7c117c, #e65cdd);
     color: black;
     border-radius: 0 10px 10px 0;
-     overflow-y: auto;  
-    height: 100vh;
+    overflow-y: auto;
+
     box-sizing: border-box;
-    
+
 }
 
 .main-container {
@@ -35,7 +35,7 @@
     backdrop-filter: blur(30px);
     color: white;
     border-radius: 40px;
-    padding: 50px 40px ; 
+    padding: 50px 40px;
     box-sizing: border-box;
     min-height: 80vh;
     /* grid-row: 2; */
@@ -60,11 +60,31 @@
     font-size: 16px;
 }
 
+.form-group1 {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.salontype {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Aligns items vertically in the center */
+}
+
+.salontype label {
+    margin-right: 10px; /* Adds space between label and radio button */
+    font-weight: normal;
+}
+
+.salontype input[type="radio"] {
+    margin-left: 5px; /* Adds space between the radio button and label */
+}
+
 .btn1 {
     width: 100%;
     padding: 10px;
     background-color: white;
-    color:black;
+    color: black;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -74,6 +94,4 @@
 
 .btn1:hover {
     background-color: #f8baf3;
-} 
-
-
+}
