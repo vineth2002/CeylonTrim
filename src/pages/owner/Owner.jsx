@@ -86,7 +86,7 @@ const Owner = () => {
 
             
               <div className="form-group">
-                <p >Salon Type</p>
+                <p className="form-group" >Salon Type</p>
                 <label for="men">For Men</label>
                 <input type="radio" id="type" name="type"></input>
                 <label for="men">For Women</label>
